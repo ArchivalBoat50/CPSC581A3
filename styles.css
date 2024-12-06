@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .video-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #webcam {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #status {
+    font-size: 2em;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .approve {
+    background-color: rgba(0, 128, 0, 0.7);
+  }
+  
+  .reject {
+    background-color: rgba(255, 0, 0, 0.7);
+  }
+  
+  .neutral {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
